@@ -25,3 +25,4 @@ jobs:
         path: distr
     - if: startsWith(github.ref, 'refs/tags/')
       run: python3 ./script/release.py
+# Just to trigger the action
